@@ -4,10 +4,8 @@
     "tailwindcss": "^4.0.12"
   },
   "scripts": {
-    "tailwind-watch": "npx @tailwindcss/cli -i ./src/input.css -o ./src/output.css --watch"
-  },
-  
-  "@parcel/transformer-css": {
-    "errorRecovery": true
+    "tailwind-watch": "npx @tailwindcss/cli -i ./src/input.css -o ./src/output.css --watch",
+    "dev": "parcel src/index.html",
+    "build": "parcel build src/index.html"
   }
 }
