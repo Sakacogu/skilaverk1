@@ -54,16 +54,6 @@
 
 <div class="flex pr-2">
     <a href="#" id="scrollToTopButton" class="hidden fixed bottom-5 end-5 rounded-full bg-yellow-700 p-3 text-xs font-medium uppercase leading-tight text-white shadow-md transition duration-150 ease-in-out hover:bg-yellow-600 hover:shadow-lg focus:bg-yellow-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-yellow-800 active:shadow-lg">Up</a>
-<script>
-  window.addEventListener('scroll', function() {
-    const scrollToTopButton = document.getElementById('scrollToTopButton');
-    if (window.scrollY > 100) {
-      scrollToTopButton.classList.remove('hidden');
-    } else {
-      scrollToTopButton.classList.add('hidden');
-    }
-  });
-</script>
 </div>
 
 <div>
@@ -235,5 +225,6 @@
     <li>Open every day: 10:30-23:00</li>
   </ul>
  </div>
+<script src="menuScript.js"></script>
 </body>
 </html>
