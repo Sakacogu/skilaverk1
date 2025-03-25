@@ -4,10 +4,4 @@ dist/
 dist/
 .parcel-cache/
 .DS_Store
-.parcel-cache/500462cf49c47703-AssetGraph
-.parcel-cache/64b180542e6de1b3-RequestGraph
-.parcel-cache/c60189ba186051bf-BundleGraph
-.parcel-cache/d45dc1418f29f060-AssetGraph
-.parcel-cache/data.mdb
-.parcel-cache/lock.mdb
-.parcel-cache/snapshot-64b180542e6de1b3.txt
+

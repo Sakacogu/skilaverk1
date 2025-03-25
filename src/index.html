@@ -11,12 +11,14 @@
   </head>
   <body class="bg-[#fdf7e3] relative min-h-screen">
 
-    <div class="absolute bottom-28 left-2 w-50 h-70 font-bold italic flex items-center z-50">
-      <div class="relative">
-      <img id="llama1" class="w-[80px] sm:w-[100px] md:w-[120px] lg:w-[120px]" src="images/dude.png" alt="dude missing">
-      <p id="yumText" class="absolute hidden top-8 left-full transform -translate-x-1/2 -translate-y-full pl-1">yum</p>
+    <div class="absolute bottom-[76px] sm:bottom-[96px] md:bottom-[96px] lg:bottom-[96px] left-2 w-50 h-70 font-bold italic flex items-center">
+      <div class="absolute">
+
+      <img id="llama4" class="relative left-1 bottom-0 w-[85px] sm:w-[110px] md:w-[110px] lg:w-[110px] cursor-pointer" src="images/cutie.png" alt="dude missing">
+      <img id="llama1" class="w-[80px] sm:w-[100px] md:w-[100px] lg:w-[100px] cursor-pointer z-50 absolute top-0 left-0" src="images/dude.png" alt="dude missing" onclick="toggleImage()">
+      <p id="yumText" class=" absolute top-8 left-full transform -translate-x-1/2 -translate-y-full pl-1">yum</p>
       </div>
-    </div>
+    </div>   
 
     <div class="absolute flex top-28 left-0">
       <div class="relative">
@@ -90,5 +92,6 @@
       </ul>
      </div>
     </main>
+    <script src="indexScript.js"></script>
   </body>
 </html>
